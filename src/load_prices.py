@@ -3,7 +3,7 @@ import re
 import os
 
 def load_prices(filename='prices.csv'):
-    
+
     # Construct the absolute path to the CSV file based on the script's location
     script_directory = os.path.dirname(os.path.abspath(__file__))
     csv_file_path = os.path.join(script_directory, filename)
@@ -37,6 +37,7 @@ def load_prices(filename='prices.csv'):
                 }
 
         print("Prices loaded successfully.")
+        print(f"prices_data: {prices_data}")
         return prices_data
 
     except FileNotFoundError:

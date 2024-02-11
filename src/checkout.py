@@ -1,5 +1,3 @@
-from load_prices import load_prices
-
 def checkout(prices_data):
     cart = {}
     total_items = 0
@@ -10,6 +8,7 @@ def checkout(prices_data):
 
         if item == 'Q':
             print("Exiting checkout.")
+            print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
             break
 
         if item not in prices_data:
@@ -37,14 +36,4 @@ def checkout(prices_data):
             total_items = sum(details['quantity'] for details in cart.values())
             total_cost = round(sum(details['total_price'] for details in cart.values()),2)
 
-        print(f"...Cart: {cart}")
-
-        print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
-
-if __name__ == "__main__":
-    prices_data = load_prices()
-
-    print("Ready for checkout. ")
-
-    if prices_data: 
-        checkout(prices_data)
+            print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
