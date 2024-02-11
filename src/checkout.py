@@ -37,9 +37,9 @@ def checkout(prices_data):
             total_items = sum(details['quantity'] for details in cart.values())
             total_cost = round(sum(details['total_price'] for details in cart.values()),2)
 
-        print(f"cart: {cart}")
+        print(f"...Cart: {cart}")
 
-        print(f"Total Item Quantity: {total_items}, Total Cost: {total_cost}")
+        print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
 
 if __name__ == "__main__":
     prices_data = load_prices()

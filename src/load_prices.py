@@ -1,10 +1,15 @@
 import csv
 import re
+import os
 
 def load_prices(filename='prices.csv'):
+    
+    # Construct the absolute path to the CSV file based on the script's location
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    csv_file_path = os.path.join(script_directory, filename)
    
     try:
-        with open(filename, 'r') as file:
+        with open(csv_file_path, 'r') as file:
             reader = csv.DictReader(file)
             prices_data = {}
 
