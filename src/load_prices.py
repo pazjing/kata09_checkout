@@ -1,6 +1,7 @@
 import csv
 import re
 import os
+import numpy as np
 
 def load_prices(filename='prices.csv'):
 
@@ -18,22 +19,18 @@ def load_prices(filename='prices.csv'):
                 unit_price = row.get('unit_price')
                 special_offer = row.get('special_offer')
 
-                try:
-                    unit_price_value = float(unit_price)  # only get legal price input
-                except ValueError:
-                    print(f"Warning: Line {i}: Invalid unit_price value '{unit_price}'. Skip this item. Please check data.")
+                unit_price_value = extract_unit_price(unit_price)
+
+                if unit_price_value <= 0:
+                    print(f"Warning: Line {i}: Invalid unit_price value. Skip. Please check data.")
                     continue
-
-                if special_offer is None:
-                    special_quantity = 0
-                    special_price = 0
-                else:
-                    special_quantity, special_price = extract_numbers(special_offer)
-
+            
+                special_quantity_value, special_price_value = extract_offer(special_offer)
+                
                 prices_data[item] = {
                     'unit_price': unit_price_value,
-                    'special_quantity': special_quantity,
-                    'special_price': special_price
+                    'special_quantity': special_quantity_value,
+                    'special_price': special_price_value
                 }
 
         print("Prices loaded successfully.")
@@ -48,16 +45,35 @@ def load_prices(filename='prices.csv'):
         return None
 
 
-def extract_numbers(input_string):
+def extract_unit_price(unit_price):
+    try:
+        unit_price_value = np.round(float(unit_price), decimals=2)
+    except (ValueError):
+        return 0
+    
+    return unit_price_value
 
-    pattern = re.compile(r'\d+\.\d+|\d+')  # matches integers or decimals  
+
+def extract_offer(input_string):
+
+    pattern = re.compile(r'\d+\.\d+|\d+|-\d+\.\d+|-\d+')  # matches integers or decimals   
 
     matches = pattern.findall(input_string)
 
     # Check if at least two numbers were found
     if len(matches) >= 2:
-        number1 = int(matches[0])
-        number2 = float(matches[1])
+        try:
+            number1 = int(matches[0])
+            number2 = np.round(float(matches[1]), decimals=2)
+
+            # Set both numbers to 0 if either of them is 0
+            if number1 < 0 or number2 < 0:
+                number1 = 0
+                number2 = 0
+
+        except (ValueError):
+            number1 = 0
+            number2 = 0
     else:
         number1 = 0
         number2 = 0
