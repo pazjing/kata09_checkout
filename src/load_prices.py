@@ -3,12 +3,10 @@ import re
 import os
 import numpy as np
 
-def load_prices(filename='prices.csv'):
+def load_prices():
 
-    # Construct the absolute path to the CSV file based on the script's location
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    csv_file_path = os.path.join(script_directory, filename)
-   
+    csv_file_path = os.environ.get('CSV_FILE_PATH', 'default_prices.csv')
+
     try:
         with open(csv_file_path, 'r') as file:
             reader = csv.DictReader(file)
@@ -38,7 +36,7 @@ def load_prices(filename='prices.csv'):
         return prices_data
 
     except FileNotFoundError:
-        print(f"Error: File '{filename}' not found.")
+        print(f"Error: File '{csv_file_path}' not found.")
         return None
     except Exception as e:
         print(f"Error: {e}")

@@ -8,6 +8,6 @@ Keep the `prices.csv` file and update with your own prices row for test purpose.
 When checkout is ready, type in your item to checkout. type in 'q' to end the checkout.      
 
 ```sh
-python3 checkout.py
+export CSV_FILE_PATH=/path/to/your/test_file.csv
+python3 src/checkout.py
 ```
-

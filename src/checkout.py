@@ -1,3 +1,5 @@
+import numpy as np
+
 def checkout(prices_data):
     cart = {}
     total_items = 0
@@ -15,9 +17,9 @@ def checkout(prices_data):
             print(f"Error: Item '{item}' not found in pricing data.")
 
         else: 
-            unit_price = prices_data[item].get("unit_price")
+            unit_price = np.round(prices_data[item].get("unit_price"), decimals=2)
             special_quantity = prices_data[item].get("special_quantity")
-            special_price =  round(prices_data[item].get("special_price"),2)
+            special_price = np.round(prices_data[item].get("special_price"), decimals=2)
 
             # existing item or new item 
             if item in cart:
@@ -29,11 +31,11 @@ def checkout(prices_data):
             if special_quantity > 0:
                 special_bundle = cart[item]['quantity'] // special_quantity
                 remaining_number = cart[item]['quantity'] % special_quantity
-                cart[item]['total_price'] = round(special_bundle * float(special_price) + remaining_number *  float(unit_price),2)
+                cart[item]['total_price'] = np.round(special_bundle * special_price + remaining_number * unit_price, decimals=2)
             else:
-                cart[item]['total_price'] = round(cart[item]['quantity'] *  float(unit_price),2)
+                cart[item]['total_price'] = np.round(cart[item]['quantity'] * unit_price, decimals=2)
                 
             total_items = sum(details['quantity'] for details in cart.values())
-            total_cost = round(sum(details['total_price'] for details in cart.values()),2)
+            total_cost = np.round(sum(details['total_price'] for details in cart.values()),decimals=2)
 
             print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
