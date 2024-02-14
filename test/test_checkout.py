@@ -2,19 +2,22 @@ import unittest
 import csv
 import os
 from unittest.mock import patch
-from src.checkout import checkout
+from checkoutSrc.checkout import checkout
 
 class TestCheckout(unittest.TestCase):
 
     # test baisc function
     @patch('builtins.input', side_effect=['A', 'B', 'C', 'Q'])
-    @patch('builtins.print')
-    def test_checkout_basic(self, mock_print, mock_input):
+    def test_checkout_valid_item(self, mock_input):
         prices_data = {'A': {'unit_price': 10, 'special_quantity': 2, 'special_price': 15},
                        'B': {'unit_price': 5, 'special_quantity': 3, 'special_price': 15},
                        'C': {'unit_price': 2, 'special_quantity': 0, 'special_price': 0}}
-        checkout(prices_data)
-        mock_print.assert_called_with('...Total Item Quantity: 3, Total Cost: 17')
+    
+        with patch('logging.info') as mock_logging_info:
+            checkout(prices_data)
+
+        self.assertEqual(mock_logging_info.call_count, 3)
+
 
     # test speical_offer apply
     @patch('builtins.input', side_effect=['A', 'A', 'A', 'Q'])

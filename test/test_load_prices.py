@@ -1,8 +1,10 @@
 import unittest
 import csv
 import os
+import sys
 from unittest.mock import patch
-from src.load_prices import load_prices, extract_unit_price, extract_offer
+
+from mypackage.load_prices import load_prices, extract_unit_price, extract_offer
 
 class TestLoadPrices(unittest.TestCase):
 

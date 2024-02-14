@@ -2,6 +2,8 @@ import csv
 import re
 import os
 import numpy as np
+import logging
+from logging_config import configure_logging
 
 def load_prices():
 
@@ -20,7 +22,7 @@ def load_prices():
                 unit_price_value = extract_unit_price(unit_price)
 
                 if unit_price_value <= 0:
-                    print(f"Warning: Line {i}: Invalid unit_price value. Skip. Please check data.")
+                    logging.warning(f"Line {i}: Invalid unit_price value. Skip. Please check data.")
                     continue
             
                 special_quantity_value, special_price_value = extract_offer(special_offer)
@@ -31,15 +33,15 @@ def load_prices():
                     'special_price': special_price_value
                 }
 
-        print("Prices loaded successfully.")
-        print(f"prices_data: {prices_data}")
+        logging.info("Prices loaded successfully.")
+        logging.debug(f"prices_data: {prices_data}")
         return prices_data
 
     except FileNotFoundError:
-        print(f"Error: File '{csv_file_path}' not found.")
+        logging.error(f"Error: File '{csv_file_path}' not found.")
         return None
     except Exception as e:
-        print(f"Error: {e}")
+        logging.error(f"Error: {e}")
         return None
 
 

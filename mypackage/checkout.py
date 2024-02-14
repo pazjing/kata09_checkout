@@ -1,4 +1,6 @@
 import numpy as np
+import logging
+from logging_config import configure_logging
 
 def checkout(prices_data):
     cart = {}
@@ -9,12 +11,11 @@ def checkout(prices_data):
         item = input("Scan an item (press 'q' to exit): ").upper()
 
         if item == 'Q':
-            print("Exiting checkout.")
-            print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
-            break
+            logging.info("Exiting checkout.")
+            return
 
         if item not in prices_data:
-            print(f"Error: Item '{item}' not found in pricing data.")
+            logging.warning(f"warning: Item '{item}' not found in pricing data.")
 
         else: 
             unit_price = np.round(prices_data[item].get("unit_price"), decimals=2)
@@ -38,4 +39,4 @@ def checkout(prices_data):
             total_items = sum(details['quantity'] for details in cart.values())
             total_cost = np.round(sum(details['total_price'] for details in cart.values()),decimals=2)
 
-            print(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
+            logging.info(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")

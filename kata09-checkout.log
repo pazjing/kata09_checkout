@@ -1,0 +1,21 @@
+2024-02-14 13:54:46,486 - INFO - Loading up...
+2024-02-14 13:54:46,486 - INFO - Prices loaded successfully.
+2024-02-14 13:54:46,486 - INFO - Ready for checkout.
+2024-02-14 13:54:47,868 - INFO - Exiting checkout.
+2024-02-14 14:33:52,561 - INFO - Loading up...
+2024-02-14 14:33:52,561 - INFO - Prices loaded successfully.
+2024-02-14 14:33:52,561 - INFO - Ready for checkout.
+2024-02-14 14:33:53,879 - INFO - ...Total Item Quantity: 1, Total Cost: 5.0
+2024-02-14 14:33:54,786 - INFO - Exiting checkout.
+2024-02-14 14:40:35,338 - INFO - Loading up...
+2024-02-14 14:40:35,338 - INFO - Prices loaded successfully.
+2024-02-14 14:40:35,338 - INFO - Ready for checkout.
+2024-02-14 14:40:36,955 - INFO - Exiting checkout.
+2024-02-14 14:41:35,883 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 14:41:35,885 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 14:41:35,886 - INFO - Prices loaded successfully.
+2024-02-14 14:41:35,887 - INFO - Prices loaded successfully.
+2024-02-14 14:43:48,143 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 14:43:48,143 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 14:43:48,143 - INFO - Prices loaded successfully.
+2024-02-14 14:43:48,143 - INFO - Prices loaded successfully.

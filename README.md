@@ -9,5 +9,12 @@ When checkout is ready, type in your item to checkout. type in 'q' to end the ch
 
 ```sh
 export CSV_FILE_PATH=/path/to/your/test_file.csv
-python3 src/checkout.py
+python3 src/main.py
+```
+
+## How to run the test     
+Run all the testcases under the test folder    
+
+```sh
+python3 -m unittest discover -v -s test
 ```
