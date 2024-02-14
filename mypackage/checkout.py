@@ -12,7 +12,7 @@ def checkout(prices_data):
 
         if item == 'Q':
             logging.info("Exiting checkout.")
-            return
+            return cart, total_items, total_cost
 
         if item not in prices_data:
             logging.warning(f"warning: Item '{item}' not found in pricing data.")
@@ -39,4 +39,5 @@ def checkout(prices_data):
             total_items = sum(details['quantity'] for details in cart.values())
             total_cost = np.round(sum(details['total_price'] for details in cart.values()),decimals=2)
 
-            logging.info(f"...Total Item Quantity: {total_items}, Total Cost: {total_cost}")
+            logging.info(f"...So far Item Quantity: {total_items}, Total Cost: {total_cost}")
+

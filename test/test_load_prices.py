@@ -4,7 +4,10 @@ import os
 import sys
 from unittest.mock import patch
 
+sys.path.append(os.environ.get('MODULE_PATH'))
+
 from mypackage.load_prices import load_prices, extract_unit_price, extract_offer
+from mypackage.logging_config import configure_logging
 
 class TestLoadPrices(unittest.TestCase):
 
