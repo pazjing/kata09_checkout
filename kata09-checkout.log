@@ -1,370 +1,228 @@
-2024-02-14 14:52:45,341 - INFO - Loading up...
-2024-02-14 14:52:45,341 - INFO - Prices loaded successfully.
-2024-02-14 14:52:45,341 - INFO - Ready for checkout.
-2024-02-14 14:52:48,158 - INFO - ...Total Item Quantity: 1, Total Cost: 5.0
-2024-02-14 14:52:48,752 - INFO - ...Total Item Quantity: 2, Total Cost: 10.0
-2024-02-14 14:52:49,670 - INFO - ...Total Item Quantity: 3, Total Cost: 16.0
-2024-02-14 14:52:50,016 - INFO - ...Total Item Quantity: 4, Total Cost: 23.0
-2024-02-14 14:52:50,418 - INFO - ...Total Item Quantity: 5, Total Cost: 29.0
-2024-02-14 14:52:51,470 - INFO - Exiting checkout.
-2024-02-14 14:59:50,971 - INFO - Loading up...
-2024-02-14 14:59:50,971 - INFO - Prices loaded successfully.
-2024-02-14 14:59:50,971 - INFO - Ready for checkout.
-2024-02-14 15:02:27,726 - INFO - Exiting checkout.
-2024-02-14 15:19:26,834 - INFO - Loading up...
-2024-02-14 15:19:26,835 - INFO - Prices loaded successfully.
-2024-02-14 15:19:26,835 - INFO - Ready for checkout.
-2024-02-14 15:19:28,145 - INFO - ...Total Item Quantity: 1, Total Cost: 5.0
-2024-02-14 15:19:29,072 - INFO - Exiting checkout.
-2024-02-14 15:22:41,484 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:22:41,484 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:22:41,484 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:22:41,484 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:22:41,484 - INFO - Prices loaded successfully.
-2024-02-14 15:22:41,484 - INFO - Prices loaded successfully.
-2024-02-14 15:22:41,485 - INFO - Prices loaded successfully.
-2024-02-14 15:22:41,485 - INFO - Prices loaded successfully.
-2024-02-14 15:22:52,252 - INFO - Loading up...
-2024-02-14 15:22:52,253 - INFO - Prices loaded successfully.
-2024-02-14 15:22:52,253 - INFO - Ready for checkout.
-2024-02-14 15:22:54,632 - INFO - Exiting checkout.
-2024-02-14 15:27:37,117 - INFO - Loading up...
-2024-02-14 15:27:37,117 - INFO - Prices loaded successfully.
-2024-02-14 15:27:37,118 - INFO - Ready for checkout.
-2024-02-14 15:27:38,548 - INFO - Exiting checkout.
-2024-02-14 15:30:28,678 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:30:28,678 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:30:28,679 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:30:28,679 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:30:28,679 - INFO - Prices loaded successfully.
-2024-02-14 15:30:28,679 - INFO - Prices loaded successfully.
-2024-02-14 15:30:28,680 - INFO - Prices loaded successfully.
-2024-02-14 15:30:28,680 - INFO - Prices loaded successfully.
-2024-02-14 15:32:42,790 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:32:42,790 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 15:32:42,791 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:32:42,791 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 15:32:42,791 - INFO - Prices loaded successfully.
-2024-02-14 15:32:42,791 - INFO - Prices loaded successfully.
-2024-02-14 15:32:42,791 - INFO - Prices loaded successfully.
-2024-02-14 15:32:42,791 - INFO - Prices loaded successfully.
-2024-02-14 15:33:24,518 - INFO - Loading up...
-2024-02-14 15:33:24,518 - INFO - Prices loaded successfully.
-2024-02-14 15:33:24,518 - INFO - Ready for checkout.
-2024-02-14 15:34:08,110 - INFO - Exiting checkout.
-2024-02-14 15:50:47,978 - INFO - Loading up...
-2024-02-14 15:50:47,980 - INFO - Prices loaded successfully.
-2024-02-14 15:50:47,980 - INFO - Ready for checkout.
-2024-02-14 15:50:59,054 - WARNING - warning: Item '[A[AQ' not found in pricing data.
-2024-02-14 15:51:01,255 - WARNING - warning: Item '[AQ' not found in pricing data.
-2024-02-14 15:51:01,624 - WARNING - warning: Item '' not found in pricing data.
-2024-02-14 15:51:02,033 - INFO - Exiting checkout.
-2024-02-14 15:51:02,033 - INFO - ...Total Item Quantity: 0, Total Cost: 0
-2024-02-14 15:51:05,322 - INFO - Loading up...
-2024-02-14 15:51:05,322 - INFO - Prices loaded successfully.
-2024-02-14 15:51:05,322 - INFO - Ready for checkout.
-2024-02-14 15:51:07,515 - INFO - ...Total Item Quantity: 5.0, Total Cost: 1
-2024-02-14 15:51:26,145 - INFO - Loading up...
-2024-02-14 15:51:26,145 - INFO - Prices loaded successfully.
-2024-02-14 15:51:26,146 - INFO - Ready for checkout.
-2024-02-14 15:51:29,691 - WARNING - warning: Item 'D' not found in pricing data.
-2024-02-14 15:52:02,552 - INFO - Exiting checkout.
-2024-02-14 15:52:02,553 - INFO - ...Total Item Quantity: 21.0, Total Cost: 3
-2024-02-14 15:52:03,714 - INFO - Loading up...
-2024-02-14 15:52:03,715 - INFO - Prices loaded successfully.
-2024-02-14 15:52:03,715 - INFO - Ready for checkout.
-2024-02-14 15:52:05,015 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
-2024-02-14 15:52:06,509 - INFO - ...So far Item Quantity: 2, Total Cost: 11.0
-2024-02-14 15:52:07,408 - INFO - ...So far Item Quantity: 3, Total Cost: 21.0
-2024-02-14 15:52:08,002 - WARNING - warning: Item 'D' not found in pricing data.
-2024-02-14 15:52:09,003 - WARNING - warning: Item 'E' not found in pricing data.
-2024-02-14 15:52:10,188 - WARNING - warning: Item 'F' not found in pricing data.
-2024-02-14 15:52:10,802 - INFO - ...So far Item Quantity: 4, Total Cost: 26.0
-2024-02-14 15:52:11,749 - INFO - ...So far Item Quantity: 5, Total Cost: 30.88
-2024-02-14 15:52:12,646 - INFO - ...So far Item Quantity: 6, Total Cost: 37.88
-2024-02-14 15:52:14,583 - INFO - Exiting checkout.
-2024-02-14 15:52:14,584 - INFO - ...Total Item Quantity: 37.88, Total Cost: 6
-2024-02-14 15:56:36,428 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:56:36,428 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:56:36,429 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:56:36,429 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:56:36,429 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:56:36,429 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:56:36,429 - INFO - Exiting checkout.
-2024-02-14 15:56:36,429 - INFO - Exiting checkout.
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:57:51,587 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:57:51,587 - INFO - Exiting checkout.
-2024-02-14 15:57:51,587 - INFO - Exiting checkout.
-2024-02-14 15:58:33,400 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:58:33,400 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:58:33,400 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:58:33,400 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:58:33,401 - INFO - Exiting checkout.
-2024-02-14 15:58:33,401 - INFO - Exiting checkout.
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:58:33,401 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:58:33,401 - INFO - Exiting checkout.
-2024-02-14 15:58:33,401 - INFO - Exiting checkout.
-2024-02-14 15:58:33,401 - INFO - Exiting checkout.
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:59:29,085 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 15:59:29,085 - INFO - Exiting checkout.
-2024-02-14 15:59:29,085 - INFO - Exiting checkout.
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 15:59:29,088 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 15:59:29,088 - INFO - Exiting checkout.
-2024-02-14 15:59:29,088 - INFO - Exiting checkout.
-2024-02-14 15:59:29,088 - INFO - Exiting checkout.
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:59:29,089 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 15:59:29,089 - INFO - Exiting checkout.
-2024-02-14 15:59:29,089 - INFO - Exiting checkout.
-2024-02-14 15:59:29,089 - INFO - Exiting checkout.
-2024-02-14 15:59:29,089 - INFO - Exiting checkout.
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:00:23,499 - INFO - Exiting checkout.
-2024-02-14 16:00:23,499 - INFO - Exiting checkout.
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:00:23,499 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:00:23,500 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:00:23,500 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:00:23,500 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:00:23,500 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - Exiting checkout.
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:00:23,500 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:00:23,501 - INFO - Exiting checkout.
-2024-02-14 16:00:23,501 - INFO - Exiting checkout.
-2024-02-14 16:00:23,501 - INFO - Exiting checkout.
-2024-02-14 16:00:23,501 - INFO - Exiting checkout.
-2024-02-14 16:00:23,501 - INFO - Exiting checkout.
-2024-02-14 16:02:52,189 - INFO - Loading up...
-2024-02-14 16:02:52,189 - INFO - Prices loaded successfully.
-2024-02-14 16:02:52,189 - INFO - Ready for checkout.
-2024-02-14 16:03:03,032 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
-2024-02-14 16:03:04,416 - INFO - ...So far Item Quantity: 2, Total Cost: 11.0
-2024-02-14 16:03:05,958 - INFO - ...So far Item Quantity: 3, Total Cost: 18.0
-2024-02-14 16:03:06,844 - INFO - ...So far Item Quantity: 4, Total Cost: 24.0
-2024-02-14 16:03:08,259 - INFO - ...So far Item Quantity: 5, Total Cost: 29.0
-2024-02-14 16:03:08,972 - INFO - ...So far Item Quantity: 6, Total Cost: 33.88
-2024-02-14 16:03:10,792 - INFO - ...So far Item Quantity: 7, Total Cost: 38.88
-2024-02-14 16:03:11,370 - INFO - ...So far Item Quantity: 8, Total Cost: 43.88
-2024-02-14 16:03:11,846 - INFO - ...So far Item Quantity: 9, Total Cost: 48.76
-2024-02-14 16:03:13,155 - INFO - ...So far Item Quantity: 10, Total Cost: 58.76
-2024-02-14 16:03:13,578 - INFO - ...So far Item Quantity: 11, Total Cost: 68.76
-2024-02-14 16:03:14,073 - INFO - ...So far Item Quantity: 12, Total Cost: 78.76
-2024-02-14 16:03:15,599 - INFO - Exiting checkout.
-2024-02-14 16:03:15,600 - INFO - ...Total Item Quantity: 12, Total Cost: 78.76
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:03:33,904 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:03:33,905 - INFO - Exiting checkout.
-2024-02-14 16:03:33,905 - INFO - Exiting checkout.
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:33,905 - INFO - Exiting checkout.
-2024-02-14 16:03:33,905 - INFO - Exiting checkout.
-2024-02-14 16:03:33,905 - INFO - Exiting checkout.
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:33,905 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:33,906 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:33,906 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:33,906 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:33,906 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:33,906 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:33,906 - INFO - Exiting checkout.
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:03:38,154 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
-2024-02-14 16:03:38,154 - INFO - Exiting checkout.
-2024-02-14 16:03:38,154 - INFO - Exiting checkout.
-2024-02-14 16:03:38,154 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 10
-2024-02-14 16:03:38,155 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:38,155 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:38,155 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:38,155 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:38,155 - WARNING - warning: Item 'B' not found in pricing data.
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 2, Total Cost: 15
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - Exiting checkout.
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,155 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,157 - INFO - Exiting checkout.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - ERROR - Error: File 'nonexistent_file.csv' not found.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,162 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
-2024-02-14 16:03:38,163 - INFO - Prices loaded successfully.
+2024-02-14 16:59:39,403 - INFO - Loading up...
+2024-02-14 16:59:39,403 - INFO - Prices loaded successfully.
+2024-02-14 16:59:39,403 - INFO - Ready for checkout.
+2024-02-14 16:59:41,124 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
+2024-02-14 16:59:48,581 - INFO - ...So far Item Quantity: 2, Total Cost: 11.0
+2024-02-14 16:59:50,131 - INFO - ...So far Item Quantity: 3, Total Cost: 21.0
+2024-02-14 16:59:52,093 - INFO - ...So far Item Quantity: 4, Total Cost: 26.0
+2024-02-14 17:00:03,943 - INFO - Exiting checkout.
+2024-02-14 17:00:03,943 - INFO - ...Total Item Quantity: 4, Total Cost: 26.0
+2024-02-14 21:11:05,337 - INFO - Loading up...
+2024-02-14 21:11:05,337 - INFO - Prices loaded successfully.
+2024-02-14 21:11:05,338 - INFO - Ready for checkout.
+2024-02-14 21:11:07,869 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
+2024-02-14 21:11:08,806 - INFO - ...So far Item Quantity: 2, Total Cost: 10.0
+2024-02-14 21:11:09,716 - INFO - ...So far Item Quantity: 3, Total Cost: 14.88
+2024-02-14 21:11:10,213 - INFO - ...So far Item Quantity: 4, Total Cost: 19.88
+2024-02-14 21:11:10,630 - INFO - ...So far Item Quantity: 5, Total Cost: 24.88
+2024-02-14 21:11:11,126 - INFO - ...So far Item Quantity: 6, Total Cost: 29.76
+2024-02-14 21:11:12,020 - INFO - Exiting checkout.
+2024-02-14 21:11:12,020 - INFO - ...Total Item Quantity: 6, Total Cost: 29.76
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:11:17,931 - INFO - Exiting checkout.
+2024-02-14 21:11:17,931 - INFO - Exiting checkout.
+2024-02-14 21:11:17,931 - INFO - Exiting checkout.
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:11:17,931 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:11:17,932 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:11:17,932 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:11:17,932 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:11:17,932 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:11:17,932 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - Exiting checkout.
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,932 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,933 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,934 - INFO - Exiting checkout.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,939 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,940 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:11:17,941 - INFO - Prices loaded successfully.
+2024-02-14 21:27:48,431 - INFO - Loading up...
+2024-02-14 21:27:48,432 - INFO - Prices loaded successfully.
+2024-02-14 21:27:48,432 - INFO - Ready for checkout.
+2024-02-14 21:27:50,063 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
+2024-02-14 21:27:51,356 - INFO - ...So far Item Quantity: 2, Total Cost: 11.0
+2024-02-14 21:27:54,077 - INFO - ...So far Item Quantity: 3, Total Cost: 21.0
+2024-02-14 21:27:58,731 - INFO - ...So far Item Quantity: 4, Total Cost: 26.0
+2024-02-14 21:28:00,098 - INFO - ...So far Item Quantity: 5, Total Cost: 30.88
+2024-02-14 21:28:04,522 - WARNING - warning: Item 'D' not found in pricing data.
+2024-02-14 21:28:06,215 - INFO - ...So far Item Quantity: 6, Total Cost: 35.88
+2024-02-14 21:28:07,280 - INFO - Exiting checkout.
+2024-02-14 21:28:07,281 - INFO - ...Total Item Quantity: 6, Total Cost: 35.88
+2024-02-14 21:29:19,704 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:29:19,704 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:29:19,704 - INFO - ...So far Item Quantity: 1, Total Cost: 1.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 3.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 3, Total Cost: 4.0
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10.0
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 2, Total Cost: 18.89
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - Exiting checkout.
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:29:19,705 - INFO - ...So far Item Quantity: 1, Total Cost: 10
+2024-02-14 21:29:19,705 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:29:19,705 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:29:19,705 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:29:19,705 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:29:19,705 - WARNING - warning: Item 'B' not found in pricing data.
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 15
+2024-02-14 21:29:19,706 - INFO - Exiting checkout.
+2024-02-14 21:29:19,706 - INFO - Exiting checkout.
+2024-02-14 21:29:19,706 - INFO - Exiting checkout.
+2024-02-14 21:29:19,706 - INFO - Exiting checkout.
+2024-02-14 21:29:19,706 - INFO - Exiting checkout.
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 1, Total Cost: 9.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,706 - INFO - ...So far Item Quantity: 2, Total Cost: 16.99
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - ...So far Item Quantity: 3, Total Cost: 26.98
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,707 - INFO - Exiting checkout.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,710 - ERROR - Error: File 'nonexistent_file.csv' not found.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - WARNING - Line 4: Invalid unit_price value. Skip. Please check data.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,714 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:19,715 - INFO - Prices loaded successfully.
+2024-02-14 21:29:56,257 - INFO - Loading up...
+2024-02-14 21:29:56,258 - INFO - Prices loaded successfully.
+2024-02-14 21:29:56,258 - INFO - Ready for checkout.
+2024-02-14 21:29:57,181 - INFO - ...So far Item Quantity: 1, Total Cost: 5.0
+2024-02-14 21:29:58,229 - INFO - ...So far Item Quantity: 2, Total Cost: 11.0
+2024-02-14 21:29:59,056 - INFO - ...So far Item Quantity: 3, Total Cost: 21.0
+2024-02-14 21:29:59,717 - WARNING - warning: Item 'D' not found in pricing data.
+2024-02-14 21:30:01,151 - WARNING - warning: Item 'E' not found in pricing data.
+2024-02-14 21:30:01,731 - WARNING - warning: Item 'E' not found in pricing data.
+2024-02-14 21:30:02,610 - WARNING - warning: Item 'E' not found in pricing data.
+2024-02-14 21:30:03,472 - INFO - Exiting checkout.
+2024-02-14 21:30:03,473 - INFO - ...Total Item Quantity: 3, Total Cost: 21.0

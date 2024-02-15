@@ -16,9 +16,14 @@ python3 mypackage/main.py
 Run all the testcases under the test folder    
 
 ```sh
-export MODULE_PATH=/path/to/your/mypackage/folder
 python3 -m unittest discover -v -s test
 ```
 
 ## To improve
+1. Review the test coverage.    
+2. More error handling.         
+3. Large data set test (what is the reality number of items?)      
+4. Shippable in to any VM with requirement.txt update
+5. Strucuture with sub-module.
+
   
